@@ -9,11 +9,11 @@ simple Calculator
 - [x] dividere
 
 avancerede Calculator
-- [ ] kvadratrod
-- [ ] cos
-- [ ] sin
-- [ ] tan
-- [ ] pow
+- [x] kvadratrod
+- [x] cos
+- [x] sin
+- [x] tan
+- [x] pow
 
 ### Opgaven beskrivelsen
 I skal lave en simpel Calculator. Den skal have en grafisk brugerflade og kunne foretage simple regne-operationer (plus, minus, gange, dividere) samt et par mere avancerede (fx. kvadratrod, cos, sin).

@@ -27,6 +27,35 @@ public class Calculator implements iCalculator {
         mode = MathMode.DIVIDERE;
     }
 
+    public void cos(){
+        calculate();
+        mode = MathMode.COS;
+        eq();
+    }
+
+    public void sin(){
+        calculate();
+        mode = MathMode.SIN;
+        eq();
+    }
+
+    public void tan(){
+        calculate();
+        mode = MathMode.TAN;
+        eq();
+    }
+
+    public void pow(){
+        calculate();
+        mode = MathMode.POW;
+    }
+
+    public void sqrt(){
+        calculate();
+        mode = MathMode.SQRT;
+        eq();
+    }
+
     public void eq(){
         calculate();
         display.setDisplayView(String.valueOf(tal));
@@ -52,6 +81,10 @@ public class Calculator implements iCalculator {
         return display.toString().replace(".", ",");
     }
 
+    private double toRadians(double angle){
+        return angle * (Math.PI / 180);
+    }
+
     private void calculate(){
         double fromDisplay = display.getDouble();
 
@@ -67,6 +100,25 @@ public class Calculator implements iCalculator {
                 break;
             case DIVIDERE:
                 tal = tal / fromDisplay;
+                break;
+            case TAN:
+                tal = Math.tan(toRadians(tal));
+                break;
+            case SIN:
+                tal = Math.sin(toRadians(tal));
+                break;
+            case COS:
+                if(tal == 90){
+                    tal = 0;
+                    break;
+                }
+                tal = Math.cos(toRadians(tal));
+                break;
+            case POW:
+                tal = Math.pow(tal, fromDisplay);
+                break;
+            case SQRT:
+                tal = Math.sqrt(tal);
                 break;
             default:
                 break;

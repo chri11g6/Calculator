@@ -1,5 +1,6 @@
 package view;
 
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import logic.Calculator;
 import logic.iCalculator;
@@ -9,6 +10,8 @@ public class CalculatorController {
     private iCalculator calculator = new Calculator();
 
     public Label labelDisplay;
+
+    public Button buttonViagra;
 
     public void buttonClick0(){
         calculator.addInput("0");
@@ -93,6 +96,34 @@ public class CalculatorController {
     public void buttonClickEq(){
         calculator.eq();
         updataDisplay();
+    }
+
+    public void buttonClickViagra(){
+        buttonViagra.setVisible(false);
+    }
+
+    public void buttonClickTan(){
+        calculator.tan();
+        updataDisplay();
+    }
+    
+    public void buttonClickCos(){
+        calculator.cos();
+        updataDisplay();
+    }
+
+    public void buttonClickSin(){
+        calculator.sin();
+        updataDisplay();
+    }
+
+    public void buttonClickSqrt(){
+        calculator.sqrt();
+        updataDisplay();
+    }
+
+    public void buttonClickPow(){
+        calculator.pow();
     }
 
     private void updataDisplay() {

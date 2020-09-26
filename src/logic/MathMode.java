@@ -5,5 +5,10 @@ public enum MathMode {
     SUB,
     MULTIPLY,
     DIVIDERE,
+    SIN,
+    COS,
+    TAN,
+    POW,
+    SQRT,
     NOT
 }
