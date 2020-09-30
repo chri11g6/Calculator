@@ -1,0 +1,4 @@
+# docker build -t javafx/make .
+FROM mjalas/javafx
+
+RUN apt install make
