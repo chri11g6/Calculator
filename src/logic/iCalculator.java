@@ -12,6 +12,14 @@ public interface iCalculator {
     public void sqrt();
     public void eq();
     public void reset();
+    /**
+     * Button value input
+     * @param data Button value
+     */
     public void addInput(String data);
+    /**
+     * Get display view
+     * @return Get from memory
+     */
     public String getDisplay();
 }
