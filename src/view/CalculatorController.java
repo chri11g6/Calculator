@@ -3,11 +3,12 @@ package view;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import logic.Calculator;
+import logic.CalculatorFactory;
 import logic.iCalculator;
 
 public class CalculatorController {
 
-    private iCalculator calculator = new Calculator();
+    private iCalculator calculator = CalculatorFactory.getCalculator();
 
     public Label labelDisplay;
 
