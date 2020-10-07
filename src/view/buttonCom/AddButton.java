@@ -1,11 +1,11 @@
-package view.ButtonCom;
+package view.buttonCom;
 
 import view.GUI;
 
-public class MulButton extends InputButton {
+public class AddButton extends InputButton {
 	@Override
 	protected void buttonAction(String in) {
-		GUI.calculator.gang();
+		GUI.calculator.add();
 		GUI.displayReferences.updateDisplay();
 	}
 }

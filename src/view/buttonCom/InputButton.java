@@ -1,4 +1,4 @@
-package view.ButtonCom;
+package view.buttonCom;
 
 import javafx.scene.control.Button;
 import javafx.scene.text.Font;

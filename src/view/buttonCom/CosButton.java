@@ -1,11 +1,11 @@
-package view.ButtonCom;
+package view.buttonCom;
 
 import view.GUI;
 
-public class EqButton extends InputButton {
+public class CosButton extends InputButton {
 	@Override
 	protected void buttonAction(String in) {
-		GUI.calculator.eq();
+		GUI.calculator.cos();
 		GUI.displayReferences.updateDisplay();
 	}
 }

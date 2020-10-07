@@ -1,11 +1,11 @@
-package view.ButtonCom;
+package view.buttonCom;
 
 import view.GUI;
 
-public class AddButton extends InputButton {
+public class SinButton extends InputButton {
 	@Override
 	protected void buttonAction(String in) {
-		GUI.calculator.add();
+		GUI.calculator.sin();
 		GUI.displayReferences.updateDisplay();
 	}
 }

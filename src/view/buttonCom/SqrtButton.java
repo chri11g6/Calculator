@@ -1,11 +1,11 @@
-package view.ButtonCom;
+package view.buttonCom;
 
 import view.GUI;
 
-public class PowButton extends InputButton {
+public class SqrtButton extends InputButton {
 	@Override
 	protected void buttonAction(String in) {
-		GUI.calculator.pow();
+		GUI.calculator.sqrt();
 		GUI.displayReferences.updateDisplay();
 	}
 }

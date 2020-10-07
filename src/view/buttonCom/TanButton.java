@@ -1,11 +1,11 @@
-package view.ButtonCom;
+package view.buttonCom;
 
 import view.GUI;
 
-public class ClearButton extends InputButton {
+public class TanButton extends InputButton {
 	@Override
 	protected void buttonAction(String in) {
-		GUI.calculator.reset();
+		GUI.calculator.tan();
 		GUI.displayReferences.updateDisplay();
 	}
 }
