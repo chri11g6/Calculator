@@ -1,6 +1,6 @@
-package view.buttonCom;
+package view.javaFX.buttonCom;
 
-import view.GUI;
+import view.javaFX.GUI;
 
 public class SinButton extends InputButton {
 	@Override

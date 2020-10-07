@@ -1,9 +1,9 @@
-package view.buttonCom;
+package view.javaFX.buttonCom;
 
 import javafx.scene.control.Button;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
-import view.GUI;
+import view.javaFX.GUI;
 
 public class InputButton {
 	private Button button;

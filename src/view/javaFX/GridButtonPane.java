@@ -1,4 +1,4 @@
-package view;
+package view.javaFX;
 
 import javafx.geometry.Pos;
 import javafx.scene.control.Button;
@@ -6,18 +6,18 @@ import javafx.scene.layout.ColumnConstraints;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Priority;
 
-import view.buttonCom.AddButton;
-import view.buttonCom.ClearButton;
-import view.buttonCom.CosButton;
-import view.buttonCom.DivButton;
-import view.buttonCom.EqButton;
-import view.buttonCom.InputButton;
-import view.buttonCom.MulButton;
-import view.buttonCom.PowButton;
-import view.buttonCom.SinButton;
-import view.buttonCom.SqrtButton;
-import view.buttonCom.SubButton;
-import view.buttonCom.TanButton;
+import view.javaFX.buttonCom.AddButton;
+import view.javaFX.buttonCom.ClearButton;
+import view.javaFX.buttonCom.CosButton;
+import view.javaFX.buttonCom.DivButton;
+import view.javaFX.buttonCom.EqButton;
+import view.javaFX.buttonCom.InputButton;
+import view.javaFX.buttonCom.MulButton;
+import view.javaFX.buttonCom.PowButton;
+import view.javaFX.buttonCom.SinButton;
+import view.javaFX.buttonCom.SqrtButton;
+import view.javaFX.buttonCom.SubButton;
+import view.javaFX.buttonCom.TanButton;
 
 public class GridButtonPane {
 	public GridPane load() {

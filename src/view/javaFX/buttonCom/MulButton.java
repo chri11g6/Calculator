@@ -1,6 +1,6 @@
-package view.buttonCom;
+package view.javaFX.buttonCom;
 
-import view.GUI;
+import view.javaFX.GUI;
 
 public class MulButton extends InputButton {
 	@Override
