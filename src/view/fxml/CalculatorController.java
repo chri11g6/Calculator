@@ -1,8 +1,7 @@
-package view;
+package view.fxml;
 
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import logic.Calculator;
 import logic.CalculatorFactory;
 import logic.iCalculator;
 
