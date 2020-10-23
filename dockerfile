@@ -3,8 +3,9 @@
 FROM javafx/make
 
 COPY . /usr/src/myapp
+WORKDIR /usr/src/myapp
+RUN make
 WORKDIR /usr/src/myapp/src
 
-RUN make
 
 CMD ["java", "App"]
